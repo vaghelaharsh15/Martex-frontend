@@ -3770,15 +3770,16 @@
       </section>
 
       <!-- FOOTER -->
-      <footer class="">
-        <div class="flex justify-center gap-16 mt-8">
+      <!-- <footer class="">
+        <div
+          class="w-5/6 mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-2 lg:gap-8 mb-12">
           <div class="">
             <a href="#hero-1" class="shrink-0">
               <img
                 id="logo-white"
                 src="https://martex-tailwindcss.ibthemespro.com/images/logo-white.png"
                 alt="Martex"
-                class="h-[34px] lg:h-[38px] w-auto"
+                class="h-[34px] lg:h-[38px] w-auto "
               />
               <img
                 id="logo-pink"
@@ -3821,8 +3822,6 @@
           <div class="ml-10 mt-8">
             <p class="font-bold text-gray-700">Follow the Best</p>
             <br />
-            <!-- <input type="email" name="" id="" placeholder="Email Address" class="text-gray-600"> -->
-            <!-- <input type="email" name="" id="" placeholder="Email Address" class="border-gray-100"> -->
             <div class="relative">
               <input
                 type="email"
@@ -3843,18 +3842,113 @@
         <br /><br />
         <div class="flex justify-between w-5/6 mx-auto">
           <div class="">
-            <p class="font-semibold text-sm">
+            <p class="font-semibold text-sm sm:text-xs">
               © 2025 Martex. All Rights Reserved
             </p>
           </div>
           <div class="">
             <a href="#"
-              ><i class="fa-brands fa-square-facebook text-2xl"></i
+              ><i class="fa-brands fa-square-facebook text-2xl "></i
             ></a>
-            <a href="#"><i class="fa-brands fa-twitter text-2xl"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter text-2xl "></i></a>
             <a href="#"
-              ><i class="fa-brands fa-square-instagram text-2xl"></i
+              ><i class="fa-brands fa-square-instagram text-2xl "></i
             ></a>
+            <a href="#"><i class="fa-brands fa-youtube text-2xl "></i></a>
+          </div>
+        </div>
+        <br /><br />
+      </footer> -->
+      <footer class="w-11/12 md:w-5/6 mx-auto">
+        <!-- Grid Layout: 1 col on mobile, 5 cols on tablet and laptop -->
+        <div class="grid grid-cols-1 md:grid-cols-5 gap-8 mb-12 justify-center">
+          
+          <!-- Logo -->
+          <div class="flex justify-center md:justify-start md:mr-6">
+            <a href="#hero-1" class="shrink-0">
+              <img
+                id="logo-white"
+                src="https://martex-tailwindcss.ibthemespro.com/images/logo-white.png"
+                alt="Martex"
+                class="h-[34px] md:h-[38px] w-auto"
+              />
+              <img
+                id="logo-pink"
+                src="https://martex-tailwindcss.ibthemespro.com/images/logo-pink.png"
+                alt="Martex"
+                class="h-[34px] md:h-[38px] w-auto"
+              />
+            </a>
+          </div>
+      
+          <!-- Company Column -->
+          <div class="mt-8 md:mt-8 md:ml-10 text-center md:text-left">
+            <p class="font-bold text-gray-700">Company</p>
+            <br class="hidden md:block" />
+            <div class="flex flex-col gap-2 mt-2 md:mt-0">
+              <a href="#" class="font-medium">About us</a>
+              <a href="#" class="font-medium">Our Blogs</a>
+              <a href="#" class="font-medium">Customers</a>
+              <a href="#" class="font-medium">Community</a>
+            </div>
+          </div>
+      
+          <!-- Product Column -->
+          <div class="mt-8 md:mt-8 md:ml-10 text-center md:text-left">
+            <p class="font-bold text-gray-700">Product</p>
+            <br class="hidden md:block" />
+            <div class="flex flex-col gap-2 mt-2 md:mt-0">
+              <a href="#" class="font-medium">Integration</a>
+              <a href="#" class="font-medium">What's new</a>
+              <a href="#" class="font-medium">Pricing</a>
+              <a href="#" class="font-medium">Help Center</a>
+            </div>
+          </div>
+      
+          <!-- Legal Column -->
+          <div class="mt-8 md:mt-8 md:ml-10 text-center md:text-left">
+            <p class="font-bold text-gray-700">Legal</p>
+            <br class="hidden md:block" />
+            <div class="flex flex-col gap-2 mt-2 md:mt-0">
+              <a href="#" class="font-medium">Term of Use</a>
+              <a href="#" class="font-medium">Privacy Policy</a>
+              <a href="#" class="font-medium">Cookie Policy</a>
+              <a href="#" class="font-medium">Site Map</a>
+            </div>
+          </div>
+      
+          <!-- Follow Column -->
+          <div class="mt-8 md:mt-8 md:ml-10 text-center md:text-left">
+            <p class="font-bold text-gray-700">Follow the Best</p>
+            <br class="hidden md:block" />
+            <div class="relative mt-2 md:mt-0 w-full max-w-[300px] mx-auto md:max-w-none">
+              <input
+                type="email"
+                placeholder="Email Address"
+                class="w-full h-12 md:h-14 pl-4 pr-10 bg-gray-100 rounded-md text-gray-500 outline-none"
+              />
+              <button class="absolute right-4 top-1/2 -translate-y-1/2 text-pink-500">
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+        <br class="hidden md:block" /><br class="hidden md:block" />
+        <hr class="w-full md:w-full mx-auto border-gray-700" />
+        <br /><br />
+      
+        <!-- Bottom Copyright & Socials -->
+        <div class="flex flex-col-reverse md:flex-row justify-between items-center w-full md:w-5/6 mx-auto gap-6 md:gap-0">
+          <div class="">
+            <p class="font-semibold text-sm text-gray-600 text-center md:text-left">
+              © 2025 Martex. All Rights Reserved
+            </p>
+          </div>
+          <div class="flex gap-4">
+            <a href="#"><i class="fa-brands fa-square-facebook text-2xl"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter text-2xl"></i></a>
+            <a href="#"><i class="fa-brands fa-square-instagram text-2xl"></i></a>
             <a href="#"><i class="fa-brands fa-youtube text-2xl"></i></a>
           </div>
         </div>
